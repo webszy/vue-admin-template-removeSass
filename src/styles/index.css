@@ -1,8 +1,8 @@
-@import './variables.scss';
-@import './mixin.scss';
-@import './transition.scss';
-@import './element-ui.scss';
-@import './sidebar.scss';
+@import './variables.css';
+@import './mixin.css';
+@import './transition.css';
+@import './element-ui.css';
+@import './sidebar.css';
 
 body {
   height: 100%;
@@ -48,18 +48,16 @@ div:focus {
   outline: none;
 }
 
-.clearfix {
-  &:after {
+.clearfix:after {
     visibility: hidden;
     display: block;
     font-size: 0;
     content: " ";
     clear: both;
     height: 0;
-  }
 }
 
-// main-container global css
+/* main-container global css*/
 .app-container {
   padding: 20px;
 }
