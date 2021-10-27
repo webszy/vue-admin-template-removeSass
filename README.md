@@ -1,5 +1,5 @@
 # vue-admin-template-removeSass
-
+仅仅移除了node-sass，转换了项目内所有sass
 English | [简体中文](./README-zh.md)
 
 > A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
